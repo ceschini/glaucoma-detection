@@ -18,9 +18,10 @@ First, we will create a python virtual environment for our project. Then we will
 
 ## Container Installation
 
-In order to install it by Docker Container simply run the following command:
+In order to install it by Docker Container simply clone the network repo and run the following command:
 
 ```bash
+    git clone https://github.com/hukaixuan19970627/yolov5_obb.git
     docker build -t yolov5-obb .
 ```
 
