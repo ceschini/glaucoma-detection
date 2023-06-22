@@ -1,0 +1,1 @@
+docker run -d --mount type=volume,src=probiou,target=/yolov5_obb/glaucoma -p 8888:8888 yolov5-obb
